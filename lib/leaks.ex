@@ -1,18 +1,8 @@
 defmodule Leaks do
-  @moduledoc """
-  Documentation for `Leaks`.
-  """
+  use Application
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> Leaks.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  @impl true
+  def start(_type, _args) do
+    Leaks.Supervisor.start_link(name: Leaks.Supervisor)
   end
 end
