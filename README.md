@@ -1,21 +1,5 @@
-# Leaks
+# Reproducing [this issue](https://github.com/revelrylabs/elixir-nodejs/issues/51)
 
-**TODO: Add description**
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_nodejs_leaks` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir_nodejs_leaks, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_nodejs_leaks](https://hexdocs.pm/elixir_nodejs_leaks).
+Start with `mix run --no-halt` or `iex -S mix`
 
